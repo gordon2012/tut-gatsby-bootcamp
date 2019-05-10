@@ -1,12 +1,10 @@
 import React from 'react';
 
-import Footer from '../components/footer';
-import Header from '../components/header';
+import Layout from '../components/layout';
 
 const ContactPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Contact Me</h1>
       <p>
         Send me a raven via{' '}
@@ -15,8 +13,7 @@ const ContactPage = () => {
         </a>{' '}
         on Twitter.
       </p>
-      <Footer />
-    </div>
+    </Layout>
   );
 };
 
