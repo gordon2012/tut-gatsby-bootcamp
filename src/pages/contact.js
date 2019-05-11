@@ -8,7 +8,11 @@ const ContactPage = () => {
       <h1>Contact Me</h1>
       <p>
         Send me a raven via{' '}
-        <a href="https://twitter.com/gordondoskas" target="_blank">
+        <a
+          href="https://twitter.com/gordondoskas"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           @gordondoskas
         </a>{' '}
         on Twitter.
